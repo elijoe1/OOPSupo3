@@ -1,7 +1,9 @@
 package uk.ac.cam.ej349;
 
+import uk.ac.cam.ej349.withComparator.Car;
+import uk.ac.cam.ej349.withComparator.CarComparator;
+
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -29,11 +31,17 @@ public class Main {
 //        System.out.println(test);
 //        Point testPoint = new Point(3,7,4);
 //        System.out.println(testPoint.equals(new Point(3,3,4)))
-        StudentMarks marks = new StudentMarks();
-        marks.marksList.put("Eli", 95.);
-        marks.marksList.put("James", 36.);
-        marks.marksList.put("Adam", 67.);
-        marks.marksList.put("Mark", 36.);
-        System.out.println(marks.medianMark());
+//        StudentMarks marks = new StudentMarks();
+//        marks.marksList.put("Eli", 95.);
+//        marks.marksList.put("James", 36.);
+//        marks.marksList.put("Adam", 67.);
+//        marks.marksList.put("Mark", 36.);
+//        System.out.println(marks.medianMark());
+//        List<Car> test = new ArrayList<>(List.of(new Car("Honda", 10),
+//                new Car("Honda", 3), new Car("Apple", 10)));
+//        Collections.sort(test, new CarComparator());
+//        for (Car car : test) {
+//            System.out.println(car);
+//        }
     }
 }
